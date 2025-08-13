@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PT EcoBrik Nusantara | Biomass Briquettes Exporter from Indonesia</title>
+  <meta name="description" content="PT EcoBrik Nusantara adalah produsen briket biomassa ramah lingkungan berbahan sekam padi. Fokus pada pasar ekspor dengan kualitas terjamin dan pasokan berkelanjutan." />
+  <meta name="keywords" content="biomass briquettes exporter, rice husk briquettes, eco-friendly fuel, green energy from Indonesia, briket sekam padi, eksportir briket, renewable energy" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E%F0%9F%8C%BF%3C/text%3E%3C/svg%3E">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="PT EcoBrik Nusantara | Biomass Briquettes Exporter" />
+  <meta property="og:description" content="Inovasi Lokal, Aksi Global — briket biomassa sekam padi untuk pasar dunia." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1499336315816-097655dcfbda?q=80&w=1600&auto=format&fit=crop" />
+  <meta property="og:url" content="https://example.com" />
+
+  <!-- Fonts & Tailwind -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            leaf: { 50:'#f0fdf4', 100:'#dcfce7', 200:'#bbf7d0', 300:'#86efac', 400:'#4ade80', 500:'#22c55e', 600:'#16a34a', 700:'#15803d', 800:'#166534', 900:'#14532d'},
+            earth: { 50:'#f8f5f2', 100:'#ede7dd', 200:'#e0d5c3', 300:'#cbb298', 400:'#b38e6b', 500:'#946a43', 600:'#7b5637', 700:'#64462f', 800:'#4f3826', 900:'#3e2d1f'}
+          },
+          boxShadow: {
+            soft: '0 10px 30px rgba(34,197,94,.18)'
+          },
+          borderRadius: { '2xl': '1.25rem' }
+        }
+      }
+    }
+  </script>
+  <style>
+    body{font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif}
+    .reveal{opacity:0;transform:translateY(16px);transition:opacity .6s ease, transform .6s ease}
+    .reveal.show{opacity:1;transform:none}
+  </style>
+</head>
+<body class="text-slate-800 bg-white">
+  <!-- Top Bar -->
+  <header class="sticky top-0 z-50 backdrop-blur bg-white/85 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="#home" class="flex items-center gap-3 font-extrabold">
+          <span class="inline-grid place-items-center w-10 h-10 rounded-2xl bg-gradient-to-br from-leaf-600 to-leaf-400 text-white shadow-soft"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6c-3.5 0-6 2.5-6 6 0 1.5.5 3 1.5 4.3a.9.9 0 0 0 .7.3h10.6a.9.9 0 0 0 .7-1.5C18.6 13.5 18 12 18 12c0-3.5-2.5-6-6-6Zm-4 10c1 1.5 2.6 2.5 4 2.5s3-.9 4-2.5"/></svg></span>
+          <span>PT EcoBrik Nusantara</span>
+        </a>
+        <nav class="hidden md:flex items-center gap-7 font-semibold">
+          <a href="#home" class="hover:text-leaf-700">Beranda</a>
+          <a href="#about" class="hover:text-leaf-700">Tentang</a>
+          <a href="#products" class="hover:text-leaf-700">Produk</a>
+          <a href="#markets" class="hover:text-leaf-700">Pasar & Ekspor</a>
+          <a href="#advantages" class="hover:text-leaf-700">Keunggulan</a>
+          <a href="#process" class="hover:text-leaf-700">Proses</a>
+          <a href="#gallery" class="hover:text-leaf-700">Galeri</a>
+          <a href="#contact" class="hover:text-leaf-700">Kontak</a>
+          <button id="langToggle" class="px-3 py-1.5 rounded-xl bg-emerald-50 text-leaf-800 border border-emerald-200">EN</button>
+        </nav>
+        <button id="menuBtn" class="md:hidden p-2 rounded-xl border border-slate-200" aria-label="menu">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="md:hidden hidden border-b border-slate-200 bg-white">
+      <div class="max-w-7xl mx-auto px-4 py-3 grid gap-3 font-semibold">
+        <a href="#home" class="hover:text-leaf-700">Beranda</a>
+        <a href="#about" class="hover:text-leaf-700">Tentang</a>
+        <a href="#products" class="hover:text-leaf-700">Produk</a>
+        <a href="#markets" class="hover:text-leaf-700">Pasar & Ekspor</a>
+        <a href="#advantages" class="hover:text-leaf-700">Keunggulan</a>
+        <a href="#process" class="hover:text-leaf-700">Proses</a>
+        <a href="#gallery" class="hover:text-leaf-700">Galeri</a>
+        <a href="#contact" class="hover:text-leaf-700">Kontak</a>
+        <button id="langToggleM" class="w-fit px-3 py-1.5 rounded-xl bg-emerald-50 text-leaf-800 border border-emerald-200">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero / Home -->
+  <section id="home" class="relative">
+    <div class="absolute inset-0 -z-10">
+      <img src="https://images.unsplash.com/photo-1499336315816-097655dcfbda?q=80&w=2000&auto=format&fit=crop" class="w-full h-full object-cover opacity-80" alt="Energi hijau" />
+      <div class="absolute inset-0 bg-gradient-to-b from-emerald-900/70 via-emerald-800/70 to-emerald-900/80"></div>
+    </div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 text-white">
+      <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/20 mb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 12h18M12 3v18"/></svg>
+        <span data-i18n="slogan">Inovasi Lokal, Aksi Global</span>
+      </span>
+      <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">PT EcoBrik Nusantara</h1>
+      <p class="max-w-2xl text-lg md:text-xl/relaxed opacity-95" data-i18n="home_desc">Produsen briket biomassa berbahan sekam padi dengan emisi rendah dan panas stabil. Solusi bahan bakar hijau untuk pasar industri dan rumah tangga.</p>
+      <div class="mt-6 flex gap-3 flex-wrap">
+        <a href="#contact" class="inline-flex items-center gap-2 px-5 py-3 rounded-2xl bg-leaf-600 hover:bg-leaf-700 text-white shadow-soft" data-i18n="cta_export">Hubungi untuk Penawaran Ekspor</a>
+        <a href="#products" class="inline-flex items-center gap-2 px-5 py-3 rounded-2xl border border-white/30 bg-white/10 hover:bg-white/20">Lihat Produk</a>
+      </div>
+      <div class="mt-6 flex gap-2 text-sm">
+        <span class="px-3 py-1 rounded-full bg-white/10 border border-white/20">Low Smoke</span>
+        <span class="px-3 py-1 rounded-full bg-white/10 border border-white/20">Sustainable</span>
+        <span class="px-3 py-1 rounded-full bg-white/10 border border-white/20">Export Ready</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tentang Kami -->
+  <section id="about" class="py-16 md:py-20 bg-earth-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:grid md:grid-cols-2 gap-8 items-center">
+        <div class="reveal">
+          <h2 class="text-3xl md:text-4xl font-extrabold mb-4" data-i18n="about_title">Tentang Kami</h2>
+          <p class="text-slate-700 mb-6" data-i18n="about_profile">PT EcoBrik Nusantara adalah perusahaan manufaktur briket biomassa berbahan baku sekam padi. Kami fokus pada kualitas konsisten, pasokan berkelanjutan, dan kepatuhan regulasi untuk memenuhi kebutuhan pasar ekspor.</p>
+          <div class="grid md:grid-cols-2 gap-5">
+            <div class="p-5 rounded-2xl bg-white border border-slate-200">
+              <h3 class="font-bold mb-2" data-i18n="visi">Visi</h3>
+              <p class="text-sm" data-i18n="visi_text">Menjadi eksportir briket biomassa terpercaya dari Indonesia yang mendorong transisi energi hijau global.</p>
+            </div>
+            <div class="p-5 rounded-2xl bg-white border border-slate-200">
+              <h3 class="font-bold mb-2" data-i18n="misi">Misi</h3>
+              <ul class="list-disc pl-5 text-sm space-y-1" data-i18n="misi_list">
+                <li>Memproduksi briket berkualitas dengan kontrol mutu ketat.</li>
+                <li>Menjalin kemitraan ekspor jangka panjang.</li>
+                <li>Menguatkan ekonomi sirkular melalui pemanfaatan limbah sekam padi.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="mt-6 p-5 rounded-2xl bg-white border border-slate-200">
+            <h3 class="font-bold mb-2" data-i18n="legal_title">Legalitas & Perizinan</h3>
+            <ul class="text-sm space-y-1" data-i18n="legal_list">
+              <li>Badan Hukum: Perseroan Terbatas (PT)</li>
+              <li>NIB (Nomor Induk Berusaha) aktif</li>
+              <li>Izin Produksi & Distribusi</li>
+              <li>Perizinan Ekspor (terkait HS Code produk)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="reveal">
+          <img src="https://images.unsplash.com/photo-1557969273-0a8dc5fd2e9c?q=80&w=1600&auto=format&fit=crop" alt="Proses produksi briket" class="rounded-2xl shadow-soft"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Produk -->
+  <section id="products" class="py-16 md:py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="mb-8 reveal">
+        <h2 class="text-3xl md:text-4xl font-extrabold mb-3" data-i18n="product_title">Produk</h2>
+        <p class="text-slate-700" data-i18n="product_desc">EcoBrik adalah briket biomassa berbahan sekam padi dengan pembakaran stabil, minim asap, dan ramah lingkungan.</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="border border-slate-200 rounded-2xl overflow-hidden reveal">
+          <img src="https://cf.shopee.co.id/file/5ccca8097252d553f5377e8d2b0fca97_tn" alt="EcoBrik" class="h-48 w-full object-cover">
+          <div class="p-5">
+            <h3 class="font-bold mb-2">EcoBrik – Rice Husk Briquettes</h3>
+            <ul class="text-sm space-y-1">
+              <li data-i18n="spec_calor">Nilai kalor: 2.789–3.873 kkal/kg</li>
+              <li data-i18n="spec_smoke">Minim asap, emisi rendah</li>
+              <li data-i18n="spec_env">Ramah lingkungan & berkelanjutan</li>
+            </ul>
+            <div class="mt-4 grid grid-cols-3 gap-2 text-center text-xs">
+              <div class="rounded-xl border py-2" data-i18n="pack_1kg">Kemasan 1 kg</div>
+              <div class="rounded-xl border py-2" data-i18n="pack_5kg">Kemasan 5 kg</div>
+              <div class="rounded-xl border py-2" data-i18n="pack_10kg">Kemasan 10 kg</div>
+            </div>
+            <div class="mt-4 flex items-center gap-2 text-xs">
+              <span class="inline-flex items-center gap-1 px-2 py-1 rounded-full bg-emerald-50 text-leaf-800 border border-emerald-200" data-i18n="cert_quality">Sertifikasi Mutu</span>
+              <span class="inline-flex items-center gap-1 px-2 py-1 rounded-full bg-emerald-50 text-leaf-800 border border-emerald-200" data-i18n="cert_env">Sertifikasi Lingkungan</span>
+            </div>
+          </div>
+        </div>
+        <div class="border border-slate-200 rounded-2xl overflow-hidden reveal">
+          <img src="https://ramesia.com/wp-content/uploads/2018/02/Briket_arang.jpeg" alt="Detail produk" class="h-48 w-full object-cover">
+          <div class="p-5">
+            <h3 class="font-bold mb-2" data-i18n="usage_title">Aplikasi</h3>
+            <p class="text-sm" data-i18n="usage_desc">Cocok untuk boiler, pengeringan, horeca, dan kebutuhan rumah tangga. Spesifikasi dapat disesuaikan dengan kebutuhan buyer.</p>
+            <a href="#contact" class="mt-3 inline-flex px-4 py-2 rounded-xl bg-leaf-600 hover:bg-leaf-700 text-white text-sm" data-i18n="get_quote">Minta Penawaran</a>
+          </div>
+        </div>
+        <div class="border border-slate-200 rounded-2xl overflow-hidden reveal">
+          <img src="https://ramesia.com/wp-content/uploads/2018/02/Briket_arang.jpeg" alt="Kemasan" class="h-48 w-full object-cover">
+          <div class="p-5">
+            <h3 class="font-bold mb-2" data-i18n="pack_title">Kemasan & Private Label</h3>
+            <p class="text-sm" data-i18n="pack_desc">Tersedia kemasan ritel & industri. Dukungan private label, desain kemasan, dan dokumen ekspor lengkap.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pasar & Ekspor -->
+  <section id="markets" class="py-16 md:py-20 bg-earth-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="mb-8 reveal">
+        <h2 class="text-3xl md:text-4xl font-extrabold mb-3" data-i18n="market_title">Pasar & Ekspor</h2>
+        <p class="text-slate-700" data-i18n="market_desc">Fokus pada pasar lokal dan tujuan ekspor strategis: Jepang, Korea Selatan, Uni Eropa, dan Timur Tengah. Kami menggabungkan pemasaran digital dan jaringan distribusi untuk pertumbuhan berkelanjutan.</p>
+      </div>
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div class="reveal">
+          <h3 class="font-bold mb-2" data-i18n="digital_title">Strategi Pemasaran Digital</h3>
+          <ul class="list-disc pl-5 text-sm space-y-1" data-i18n="digital_list">
+            <li>Optimasi SEO & konten teknis</li>
+            <li>Listing marketplace B2B (Alibaba) & katalog produk</li>
+            <li>Kampanye media sosial (Instagram, TikTok)</li>
+            <li>Outbound email dan kemitraan distributor</li>
+          </ul>
+        </div>
+        <div class="reveal">
+          <!-- Simple world map SVG with highlighted regions -->
+          <div class="rounded-2xl border border-slate-200 p-4 bg-white">
+            <h4 class="font-bold mb-3" data-i18n="https://media.istockphoto.com/photos/coal-for-hookah-production-line-factroy-picture-id1243126087?k=20&m=1243126087&s=612x612&w=0&h=mP8v-rRXhYZSB2h4VQqWXlvkgJ2UmJY8a2qyXbZmXV0=">Peta Distribusi & Target Ekspor</h4>
+            <svg viewBox="0 0 800 400" class="w-full h-auto">
+              <rect width="800" height="400" fill="#fff"/>
+              <g fill="#e5e7eb" stroke="#cbd5e1" stroke-width="1">
+                <path d="M50,200 l80,-20 40,10 30,-10 60,20 40,0 30,20 -20,30 -50,10 -60,0 -80,-10 -50,-25z"/>
+                <path d="M350,160 l50,-15 40,10 30,-5 40,15 20,10 -10,20 -40,10 -50,0 -30,-15z"/>
+                <path d="M520,190 l40,-10 50,10 30,0 40,20 10,20 -30,10 -50,-5 -40,-10 -30,-15z"/>
+                <path d="M620,260 l20,-5 30,10 40,10 30,20 -20,10 -40,0 -30,-10 -20,-15z"/>
+                <path d="M690,140 l40,-10 30,10 10,15 -10,15 -30,10 -40,-10 -10,-10z"/>
+              </g>
+              <!-- Highlights -->
+              <g>
+                <circle cx="690" cy="150" r="10" fill="#22c55e"><title>Jepang</title></circle>
+                <circle cx="640" cy="180" r="10" fill="#22c55e"><title>Korea Selatan</title></circle>
+                <circle cx="480" cy="170" r="10" fill="#22c55e"><title>Uni Eropa</title></circle>
+                <circle cx="560" cy="210" r="10" fill="#22c55e"><title>Timur Tengah</title></circle>
+                <circle cx="620" cy="290" r="10" fill="#22c55e"><title>Indonesia</title></circle>
+              </g>
+            </svg>
+            <p class="text-xs text-slate-500 mt-2" data-i18n="map_note">Ilustrasi peta sederhana untuk menunjukkan wilayah target ekspor.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Keunggulan -->
+  <section id="advantages" class="py-16 md:py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="mb-8 reveal">
+        <h2 class="text-3xl md:text-4xl font-extrabold mb-3" data-i18n="adv_title">Keunggulan</h2>
+        <p class="text-slate-700" data-i18n="adv_desc">Kombinasi keunggulan teknis dan strategis untuk daya saing jangka panjang.</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl border border-slate-200 bg-white reveal">
+          <div class="w-12 h-12 rounded-2xl bg-leaf-100 text-leaf-700 grid place-items-center mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6a9 9 0 1 0 9 9H12z"/></svg>
+          </div>
+          <h3 class="font-bold mb-1" data-i18n="adv_env_title">Ramah Lingkungan</h3>
+          <p class="text-sm" data-i18n="adv_env_desc">Menggunakan sekam padi—limbah pertanian—untuk mengurangi emisi dan mendukung ekonomi sirkular.</p>
+        </div>
+        <div class="p-6 rounded-2xl border border-slate-200 bg-white reveal">
+          <div class="w-12 h-12 rounded-2xl bg-leaf-100 text-leaf-700 grid place-items-center mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 12h18M12 3v18"/></svg>
+          </div>
+          <h3 class="font-bold mb-1" data-i18n="adv_eff_title">Efisiensi Panas</h3>
+          <p class="text-sm" data-i18n="adv_eff_desc">Nilai kalor terukur, pembakaran stabil, dan durasi panas lebih lama.</p>
+        </div>
+        <div class="p-6 rounded-2xl border border-slate-200 bg-white reveal">
+          <div class="w-12 h-12 rounded-2xl bg-leaf-100 text-leaf-700 grid place-items-center mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 12l5 5L20 7"/></svg>
+          </div>
+          <h3 class="font-bold mb-1" data-i18n="adv_soc_title">Pemberdayaan & Ekspor</h3>
+          <p class="text-sm" data-i18n="adv_soc_desc">Memberdayakan masyarakat lokal dan membuka peluang ekspor bernilai tambah tinggi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proses Produksi -->
+  <section id="process" class="py-16 md:py-20 bg-earth-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="mb-8 reveal">
+        <h2 class="text-3xl md:text-4xl font-extrabold mb-3" data-i18n="process_title">Proses Produksi</h2>
+        <p class="text-slate-700" data-i18n="process_desc">Dari sekam padi hingga briket siap ekspor: alur produksi ringkas & terdokumentasi.</p>
+      </div>
+      <!-- Infografik langkah -->
+      <div class="grid md:grid-cols-6 gap-4">
+        <div class="p-4 border rounded-2xl bg-white text-center reveal">
+          <div class="w-12 h-12 mx-auto rounded-2xl bg-earth-100 grid place-items-center mb-2">1</div>
+          <div class="font-semibold" data-i18n="p1">Pengumpulan Sekam</div>
+        </div>
+        <div class="p-4 border rounded-2xl bg-white text-center reveal">
+          <div class="w-12 h-12 mx-auto rounded-2xl bg-earth-100 grid place-items-center mb-2">2</div>
+          <div class="font-semibold" data-i18n="p2">Pengeringan</div>
+        </div>
+        <div class="p-4 border rounded-2xl bg-white text-center reveal">
+          <div class="w-12 h-12 mx-auto rounded-2xl bg-earth-100 grid place-items-center mb-2">3</div>
+          <div class="font-semibold" data-i18n="p3">Karbonisasi</div>
+        </div>
+        <div class="p-4 border rounded-2xl bg-white text-center reveal">
+          <div class="w-12 h-12 mx-auto rounded-2xl bg-earth-100 grid place-items-center mb-2">4</div>
+          <div class="font-semibold" data-i18n="p4">Pencampuran & Binder</div>
+        </div>
+        <div class="p-4 border rounded-2xl bg-white text-center reveal">
+          <div class="w-12 h-12 mx-auto rounded-2xl bg-earth-100 grid place-items-center mb-2">5</div>
+          <div class="font-semibold" data-i18n="p5">Pencetakan & Pengeringan</div>
+        </div>
+        <div class="p-4 border rounded-2xl bg-white text-center reveal">
+          <div class="w-12 h-12 mx-auto rounded-2xl bg-earth-100 grid place-items-center mb-2">6</div>
+          <div class="font-semibold" data-i18n="p6">Pengemasan & QC</div>
+        </div>
+      </div>
+      <img src="https://media.istockphoto.com/photos/coal-for-hookah-production-line-factroy-picture-id1243126087?k=20&m=1243126087&s=612x612&w=0&h=mP8v-rRXhYZSB2h4VQqWXlvkgJ2UmJY8a2qyXbZmXV0=" alt="Ilustrasi pabrik" class="mt-6 rounded-2xl border reveal">
+    </div>
+  </section>
+
+  <!-- Galeri -->
+  <section id="gallery" class="py-16 md:py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="mb-8 reveal">
+        <h2 class="text-3xl md:text-4xl font-extrabold mb-3" data-i18n="gallery_title">Galeri</h2>
+        <p class="text-slate-700" data-i18n="gallery_desc">Cuplikan kegiatan produksi, kemasan, dan partisipasi pameran internasional.</p>
+      </div>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <img class="rounded-2xl border reveal" src="https://tse3.mm.bing.net/th/id/OIP.E00T_Eixj2_vlgFyTvRXZwAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Produksi"/>
+        <img class="rounded-2xl border reveal" src="https://5.imimg.com/data5/SELLER/Default/2023/11/359371516/NM/MK/GC/4843550/charcoal-briquette-500x500.jpg" alt="Pameran"/>
+        <img class="rounded-2xl border reveal" src="https://indoworldcoco.com/wp-content/uploads/2022/01/charcoal-gambar-2-1200px.jpg" alt="Kemasan"/>
+        <img class="rounded-2xl border reveal" src="https://tse2.mm.bing.net/th/id/OIP.kZexNac4CFhTX29sM90v9AAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="QC"/>
+        <img class="rounded-2xl border reveal" src="https://tiimg.tistatic.com/fp/1/005/434/premium-quality-indonesian-coconut-shell-charcoal-briquette-097.jpg" alt="Gudang"/>
+        <img class="rounded-2xl border reveal" src="https://indobriquettes.com/wp-content/uploads/2023/03/cube_briquettes_coconut_fillo-scaled.jpg" alt="Pengiriman"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hubungi Kami -->
+  <section id="contact" class="py-16 md:py-20 bg-earth-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="mb-8 reveal">
+        <h2 class="text-3xl md:text-4xl font-extrabold mb-3" data-i18n="contact_title">Hubungi Kami</h2>
+        <p class="text-slate-700" data-i18n="contact_desc">Kami siap melayani kebutuhan ekspor Anda. Isi formulir atau hubungi kanal berikut.</p>
+      </div>
+      <div class="grid md:grid-cols-2 gap-8 items-start">
+        <form id="contactForm" class="p-6 rounded-2xl border bg-white reveal" novalidate>
+          <div class="grid md:grid-cols-2 gap-4">
+            <div>
+              <label class="text-sm font-semibold" for="name" data-i18n="f_name">Nama</label>
+              <input id="name" class="mt-1 w-full rounded-xl border p-3" placeholder="Nama lengkap" required />
+            </div>
+            <div>
+              <label class="text-sm font-semibold" for="company2" data-i18n="f_company">Perusahaan</label>
+              <input id="company2" class="mt-1 w-full rounded-xl border p-3" placeholder="Nama perusahaan" required />
+            </div>
+            <div>
+              <label class="text-sm font-semibold" for="email2">Email</label>
+              <input id="email2" type="email" class="mt-1 w-full rounded-xl border p-3" placeholder="email@domain.com" required />
+            </div>
+            <div>
+              <label class="text-sm font-semibold" for="phone2" data-i18n="f_phone">Telepon / WhatsApp</label>
+              <input id="phone2" class="mt-1 w-full rounded-xl border p-3" placeholder="+62…" required />
+            </div>
+          </div>
+          <div class="mt-4">
+            <label class="text-sm font-semibold" for="message2" data-i18n="f_msg">Pesan</label>
+            <textarea id="message2" class="mt-1 w-full rounded-xl border p-3 min-h-[120px]" placeholder="Kebutuhan, spesifikasi, incoterm, tujuan pelabuhan…"></textarea>
+          </div>
+          <div class="mt-4 flex items-center gap-3 flex-wrap">
+            <label class="text-sm flex items-center gap-2"><input id="consent" type="checkbox" class="rounded" required> <span data-i18n="consent">Saya setuju dihubungi</span></label>
+            <button class="px-5 py-3 rounded-2xl bg-leaf-600 hover:bg-leaf-700 text-white shadow-soft" type="submit" data-i18n="send_btn">Kirim</button>
+          </div>
+          <p id="formSuccess" class="hidden mt-3 text-sm text-leaf-700" data-i18n="success_msg">Terima kasih! Pesan Anda terkirim.</p>
+        </form>
+        <div class="space-y-4 reveal">
+          <div class="p-6 rounded-2xl border bg-white">
+            <h3 class="font-bold mb-2">PT EcoBrik Nusantara</h3>
+            <p>Desa Dukuhkarya, Rengasdengklok, Karawang, Jawa Barat Indonesia</p>
+            <p>Email: <a class="text-leaf-700" href="mailto:export@ecobrik.co">export@ecobrik.com</a></p>
+            <p>WhatsApp Business: <a class="text-leaf-700" href="https://wa.me/6285692434867" target="_blank" rel="noopener">+62 856-9243-4867</a></p>
+          </div>
+          <div class="p-6 rounded-2xl border bg-white">
+            <h4 class="font-bold mb-3" data-i18n="social_title">Media Sosial & Marketplace</h4>
+            <div class="flex flex-wrap gap-3">
+              <a href="#" class="px-4 py-2 rounded-xl border hover:bg-emerald-50">Instagram</a>
+              <a href="#" class="px-4 py-2 rounded-xl border hover:bg-emerald-50">TikTok</a>
+              <a href="#" class="px-4 py-2 rounded-xl border hover:bg-emerald-50">Shopee</a>
+              <a href="#" class="px-4 py-2 rounded-xl border hover:bg-emerald-50">Tokopedia</a>
+              <a href="#" class="px-4 py-2 rounded-xl border hover:bg-emerald-50">Alibaba</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-emerald-950 text-emerald-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <div class="grid md:grid-cols-3 gap-8">
+        <div>
+          <div class="flex items-center gap-3">
+            <span class="inline-grid place-items-center w-10 h-10 rounded-2xl bg-gradient-to-br from-leaf-600 to-leaf-400 text-white shadow-soft"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6c-3.5 0-6 2.5-6 6 0 1.5.5 3 1.5 4.3h10.6c.6 0 1-.7.6-1.2C18.6 13.5 18 12 18 12c0-3.5-2.5-6-6-6Z"/></svg></span>
+            <div>
+              <div class="font-extrabold">PT EcoBrik Nusantara</div>
+              <div class="text-sm opacity-80" data-i18n="footer_tag">Green energy from Indonesia</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="font-bold mb-2" data-i18n="footer_nav">Navigasi</div>
+          <ul class="space-y-1 text-sm">
+            <li><a href="#home" class="hover:text-white">Beranda</a></li>
+            <li><a href="#about" class="hover:text-white">Tentang</a></li>
+            <li><a href="#products" class="hover:text-white">Produk</a></li>
+            <li><a href="#markets" class="hover:text-white">Pasar & Ekspor</a></li>
+            <li><a href="#contact" class="hover:text-white">Kontak</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="font-bold mb-2">SEO Keywords</div>
+          <p class="text-sm opacity-90">biomass briquettes exporter, rice husk briquettes, eco-friendly fuel, green energy from Indonesia</p>
+        </div>
+      </div>
+      <div class="mt-6 pt-4 border-t border-emerald-900 text-sm opacity-80">© <span id="year"></span> PT EcoBrik Nusantara. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "PT EcoBrik Nusantara",
+    "url": "https://example.com",
+    "logo": "https://example.com/logo.png",
+    "sameAs": ["https://instagram.com/", "https://www.tiktok.com/", "https://shopee.co.id/", "https://www.tokopedia.com/", "https://alibaba.com/"]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "EcoBrik Rice Husk Briquettes",
+    "brand": "PT EcoBrik Nusantara",
+    "description": "Rice husk biomass briquettes with low smoke and stable heat.",
+    "category": "Fuel",
+    "isAccessoryOrSparePartFor": "Biomass boilers",
+    "additionalProperty": [
+      {"@type":"PropertyValue","name":"Calorific Value","value":"2,789–3,873 kcal/kg"},
+      {"@type":"PropertyValue","name":"Packaging","value":"1 kg, 5 kg, 10 kg"}
+    ]
+  }
+  </script>
+
+  <!-- App JS: i18n, reveal, form, UX helpers -->
+  <script>
+    const i18n = {
+      id: {
+        slogan: 'Inovasi Lokal, Aksi Global',
+        home_desc: 'Produsen briket biomassa berbahan sekam padi dengan emisi rendah dan panas stabil. Solusi bahan bakar hijau untuk pasar industri dan rumah tangga.',
+        cta_export: 'Hubungi untuk Penawaran Ekspor',
+        about_title: 'Tentang Kami',
+        about_profile: 'PT EcoBrik Nusantara adalah perusahaan manufaktur briket biomassa berbahan baku sekam padi. Kami fokus pada kualitas konsisten, pasokan berkelanjutan, dan kepatuhan regulasi untuk memenuhi kebutuhan pasar ekspor.',
+        visi: 'Visi',
+        visi_text: 'Menjadi eksportir briket biomassa terpercaya dari Indonesia yang mendorong transisi energi hijau global.',
+        misi: 'Misi',
+        misi_list: '<li>Memproduksi briket berkualitas dengan kontrol mutu ketat.</li><li>Menjalin kemitraan ekspor jangka panjang.</li><li>Menguatkan ekonomi sirkular melalui pemanfaatan limbah sekam padi.</li>',
+        legal_title: 'Legalitas & Perizinan',
+        legal_list: '<li>Badan Hukum: Perseroan Terbatas (PT)</li><li>NIB (Nomor Induk Berusaha) aktif</li><li>Izin Produksi & Distribusi</li><li>Perizinan Ekspor (terkait HS Code produk)</li>',
+        product_title: 'Produk',
+        product_desc: 'EcoBrik adalah briket biomassa berbahan sekam padi dengan pembakaran stabil, minim asap, dan ramah lingkungan.',
+        spec_calor: 'Nilai kalor: 2.789–3.873 kkal/kg',
+        spec_smoke: 'Minim asap, emisi rendah',
+        spec_env: 'Ramah lingkungan & berkelanjutan',
+        pack_1kg: 'Kemasan 1 kg',
+        pack_5kg: 'Kemasan 5 kg',
+        pack_10kg: 'Kemasan 10 kg',
+        cert_quality: 'Sertifikasi Mutu',
+        cert_env: 'Sertifikasi Lingkungan',
+        usage_title: 'Aplikasi',
+        usage_desc: 'Cocok untuk boiler, pengeringan, horeca, dan kebutuhan rumah tangga. Spesifikasi dapat disesuaikan dengan kebutuhan buyer.',
+        get_quote: 'Minta Penawaran',
+        pack_title: 'Kemasan & Private Label',
+        pack_desc: 'Tersedia kemasan ritel & industri. Dukungan private label, desain kemasan, dan dokumen ekspor lengkap.',
+        market_title: 'Pasar & Ekspor',
+        market_desc: 'Fokus pada pasar lokal dan tujuan ekspor strategis: Jepang, Korea Selatan, Uni Eropa, dan Timur Tengah. Kami menggabungkan pemasaran digital dan jaringan distribusi untuk pertumbuhan berkelanjutan.',
+        digital_title: 'Strategi Pemasaran Digital',
+        digital_list: '<li>Optimasi SEO & konten teknis</li><li>Listing marketplace B2B (Alibaba) & katalog produk</li><li>Kampanye media sosial (Instagram, TikTok)</li><li>Outbound email dan kemitraan distributor</li>',
+        map_title: 'Peta Distribusi & Target Ekspor',
+        map_note: 'Ilustrasi peta sederhana untuk menunjukkan wilayah target ekspor.',
+        adv_title: 'Keunggulan',
+        adv_desc: 'Kombinasi keunggulan teknis dan strategis untuk daya saing jangka panjang.',
+        adv_env_title: 'Ramah Lingkungan',
+        adv_env_desc: 'Menggunakan sekam padi—limbah pertanian—untuk mengurangi emisi dan mendukung ekonomi sirkular.',
+        adv_eff_title: 'Efisiensi Panas',
+        adv_eff_desc: 'Nilai kalor terukur, pembakaran stabil, dan durasi panas lebih lama.',
+        adv_soc_title: 'Pemberdayaan & Ekspor',
+        adv_soc_desc: 'Memberdayakan masyarakat lokal dan membuka peluang ekspor bernilai tambah tinggi.',
+        process_title: 'Proses Produksi',
+        process_desc: 'Dari sekam padi hingga briket siap ekspor: alur produksi ringkas & terdokumentasi.',
+        p1: 'Pengumpulan Sekam', p2: 'Pengeringan', p3: 'Karbonisasi', p4: 'Pencampuran & Binder', p5: 'Pencetakan & Pengeringan', p6: 'Pengemasan & QC',
+        gallery_title: 'Galeri',
+        gallery_desc: 'Cuplikan kegiatan produksi, kemasan, dan partisipasi pameran internasional.',
+        contact_title: 'Hubungi Kami',
+        contact_desc: 'Kami siap melayani kebutuhan ekspor Anda. Isi formulir atau hubungi kanal berikut.',
+        f_name: 'Nama', f_company: 'Perusahaan', f_phone: 'Telepon / WhatsApp', f_msg: 'Pesan',
+        consent: 'Saya setuju dihubungi', send_btn: 'Kirim', success_msg: 'Terima kasih! Pesan Anda terkirim.',
+        social_title:'Media Sosial & Marketplace',
+        footer_tag: 'Green energy from Indonesia',
+        footer_nav: 'Navigasi'
+      },
+      en: {
+        slogan: 'Local Innovation, Global Action',
+        home_desc: 'Manufacturer of rice husk biomass briquettes with low smoke and stable heat. A green fuel solution for industrial and household needs.',
+        cta_export: 'Contact for Export Quotation',
+        about_title: 'About Us',
+        about_profile: 'PT EcoBrik Nusantara manufactures rice husk biomass briquettes with consistent quality, sustainable supply, and regulatory compliance for export markets.',
+        visi: 'Vision',
+        visi_text: 'To become Indonesia’s trusted biomass briquettes exporter driving the global green energy transition.',
+        misi: 'Mission',
+        misi_list: '<li>Produce high-quality briquettes with strict QC.</li><li>Build long-term export partnerships.</li><li>Strengthen circular economy by utilizing rice husk waste.</li>',
+        legal_title: 'Licenses & Compliance',
+        legal_list: '<li>Legal Entity: Limited Liability Company (PT)</li><li>Active Business Identification Number (NIB)</li><li>Production & Distribution permits</li><li>Export permits (related to product HS Code)</li>',
+        product_title: 'Products',
+        product_desc: 'EcoBrik is a rice husk biomass briquette with stable combustion, low smoke, and eco-friendly performance.',
+        spec_calor: 'Calorific value: 2,789–3,873 kcal/kg',
+        spec_smoke: 'Low smoke, low emission',
+        spec_env: 'Eco-friendly & sustainable',
+        pack_1kg: '1 kg Pack',
+        pack_5kg: '5 kg Pack',
+        pack_10kg: '10 kg Pack',
+        cert_quality: 'Quality Certification',
+        cert_env: 'Environmental Certification',
+        usage_title: 'Applications',
+        usage_desc: 'Suitable for boilers, drying, horeca, and households. Specs can be customized to buyer needs.',
+        get_quote: 'Request a Quote',
+        pack_title: 'Packaging & Private Label',
+        pack_desc: 'Retail & industrial packaging available. Support for private label, packaging design, and complete export documents.',
+        market_title: 'Markets & Export',
+        market_desc: 'Focus on domestic market and strategic export destinations: Japan, South Korea, European Union, and the Middle East. We combine digital marketing and distributor networks for sustainable growth.',
+        digital_title: 'Digital Marketing Strategy',
+        digital_list: '<li>SEO optimization & technical content</li><li>B2B marketplace listings (Alibaba) & product catalogs</li><li>Social media campaigns (Instagram, TikTok)</li><li>Outbound email and distributor partnerships</li>',
+        map_title: 'Distribution Map & Export Targets',
+        map_note: 'Simple illustrative map to show target regions.',
+        adv_title: 'Advantages',
+        adv_desc: 'A blend of technical and strategic advantages for long-term competitiveness.',
+        adv_env_title: 'Eco-Friendly',
+        adv_env_desc: 'Utilizing agricultural waste (rice husk) to reduce emissions and support circular economy.',
+        adv_eff_title: 'Heat Efficiency',
+        adv_eff_desc: 'Measured calorific value, stable combustion, and longer heat duration.',
+        adv_soc_title: 'Empowerment & Export',
+        adv_soc_desc: 'Empowering local communities while enabling high value-added exports.',
+        process_title: 'Production Process',
+        process_desc: 'From rice husk to export-ready briquettes: a concise and documented workflow.',
+        p1: 'Rice Husk Collection', p2: 'Drying', p3: 'Carbonization', p4: 'Mixing & Binder', p5: 'Pressing & Drying', p6: 'Packaging & QC',
+        gallery_title: 'Gallery',
+        gallery_desc: 'Snapshots of production, packaging, and international exhibitions.',
+        contact_title: 'Contact Us',
+        contact_desc: 'We are ready to serve your export needs. Fill out the form or reach us via the channels below.',
+        f_name: 'Name', f_company: 'Company', f_phone: 'Phone / WhatsApp', f_msg: 'Message',
+        consent: 'I agree to be contacted', send_btn: 'Send', success_msg: 'Thank you! Your message has been sent.',
+        social_title:'Social Media & Marketplace',
+        footer_tag: 'Green energy from Indonesia',
+        footer_nav: 'Navigation'
+      }
+    };
+
+    // Simple i18n toggle
+    function setLang(lang='id'){
+      document.documentElement.lang = lang;
+      document.querySelectorAll('[data-i18n]').forEach(el=>{
+        const key = el.getAttribute('data-i18n');
+        const val = i18n[lang][key];
+        if(!val) return;
+        if(/<li|<br|<strong|<span/.test(val)) el.innerHTML = val; else el.textContent = val;
+      });
+      document.getElementById('langToggle').textContent = lang==='id' ? 'EN' : 'ID';
+      if(document.getElementById('langToggleM')) document.getElementById('langToggleM').textContent = lang==='id' ? 'EN' : 'ID';
+    }
+
+    let currentLang = 'id';
+    document.getElementById('langToggle').addEventListener('click',()=>{currentLang = currentLang==='id'?'en':'id'; setLang(currentLang);});
+    document.getElementById('menuBtn').addEventListener('click',()=>{
+      document.getElementById('mobileMenu').classList.toggle('hidden');
+    });
+    document.getElementById('langToggleM').addEventListener('click',()=>{currentLang = currentLang==='id'?'en':'id'; setLang(currentLang);});
+
+    // Scroll reveal
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('show'); io.unobserve(e.target);} });
+    },{threshold:.12});
+    document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+    // Year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Contact form: mailto fallback or endpoint
+    const FORM_ENDPOINT = '';
+    const contactForm = document.getElementById('contactForm');
+    const success = document.getElementById('formSuccess');
+    contactForm.addEventListener('submit', async (e)=>{
+      e.preventDefault();
+      if(!contactForm.reportValidity()) return;
+      const data = Object.fromEntries(new FormData(contactForm).entries());
+      try{
+        if(FORM_ENDPOINT){
+          const res = await fetch(FORM_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});
+          if(!res.ok) throw new Error('Network error');
+        } else {
+          const mailto = `mailto:export@ecobrik.co?subject=Inquiry%20EcoBrik&body=${encodeURIComponent(JSON.stringify(data,null,2))}`;
+          window.location.href = mailto;
+        }
+        success.classList.remove('hidden');
+        contactForm.reset();
+      }catch(err){
+        alert('Gagal mengirim. Silakan coba lagi atau hubungi WhatsApp.');
+      }
+    });
+
+    // Initial language
+    setLang('id');
+  </script>
+</body>
+</html>
